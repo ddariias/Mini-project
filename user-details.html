@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>user-details.html</title>
+    <style>
+        button#button{
+            width: 90%;
+            display: block;
+            margin: auto;
+            background-color: rgba(245, 198, 207, 0.62);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #blocPost{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        #blocDiv{
+            margin-left: 20%;
+            text-align: center;
+            background-color: rgba(238, 214, 238, 0.64);
+            width: 60%;
+            
+        }
+        #blocPost{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+       
+        .postDiv{
+            background-color: rgba(225, 146, 185, 0.57);
+            margin: 5px;
+            width: 18%;
+            padding: 5px;
+            
+        }
+        .buttonInfo{
+            border-radius: 5px;
+            background-color: rgba(231, 170, 231, 0.4);
+            border: 1px solid;
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+<div id="blocDiv"></div>
+<button id = "button">post of current user</button>
+<div id="blocPost"></div>
+<div id="post"></div>
+
+<script src="user-details.js"></script>
+</body>
+</html>
